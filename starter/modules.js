@@ -13,3 +13,9 @@ const { add, multiply, divide } = require("./test-module-2");
 console.log(add(4, 5));
 
 console.log(multiply(2, 5));
+
+// caching
+
+require("./test-module-3")();
+require("./test-module-3")();
+require("./test-module-3")();
